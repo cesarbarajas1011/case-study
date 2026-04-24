@@ -25,7 +25,7 @@ export const getAIMessage = async (userQuery) => {
 
     const data = await res.json();
 
-    // 🔴 IMPORTANT: log this once to debug
+  
     console.log("Groq response:", data);
 
     const content =
